@@ -17,7 +17,7 @@ function Signup() {
           onFinish={onFinishHandler}
           className="register-form card p-5"
         >
-          <h1 className="text-center">Sign Up</h1>
+          <h1 className="text-center">Create your Account</h1>
           <Form.Item label="Name" name="fullname">
             <Input type="text" placeholder="Enter your Full Name" required />
           </Form.Item>
@@ -26,7 +26,7 @@ function Signup() {
           </Form.Item>
           <Form.Item label="Phone" name="phone">
             <Input
-              type="number"
+              type="phone"
               placeholder="Enter your Phone Number"
               required
             />
@@ -42,7 +42,7 @@ function Signup() {
             />
           </Form.Item>
           <p>
-            Already have an Account?{" "}
+            Already have an Account?
             <Link to="/login" className="ms-2">
               Log-In
             </Link>

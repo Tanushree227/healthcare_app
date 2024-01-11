@@ -14,9 +14,9 @@ function Login() {
         onFinish={onFinishHandler}
         className="register-form card p-5"
       >
-        <h1 className="text-center">Log - In</h1>
+        <h1 className="text-center">Log in to your account</h1>
         <p>
-          Don't have an account?{" "}
+          Don't have an account?
           <Link to="/signup" className="ms-2">
             Sign - Up
           </Link>
