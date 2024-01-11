@@ -9,6 +9,7 @@
 {
     padding: 1rem;
     width: 30%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .actions {
@@ -32,7 +33,7 @@
     background-color: #eb5e28;
     border-color: #eb5e28;
   }
-  h6
+  p
   {
     text-align: center;
   }
