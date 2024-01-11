@@ -9,7 +9,7 @@
     "server": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tanushree Das",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
