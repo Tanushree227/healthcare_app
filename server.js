@@ -13,7 +13,8 @@ const app = express();
 app.use(express.json());
 app.use(morgan('dev'));
 
-app.use('/api/v1/user', require("./routes/userRoutes"));
+app.use('./api/v1/user/', require("./routes/userRoutes"));
+
 
 const port = process.env.PORT || 8080
 
